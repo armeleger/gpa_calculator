@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GPA Calculator</title>
-  <link rel="stylesheet" href="gpa.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
@@ -12,40 +12,24 @@
   </header>
 
   <main>
-    <!-- Assignment Input Section -->
     <section id="input-section">
       <h2>Add Assignment</h2>
       <form id="assignment-form">
         <label for="assignment-name">Assignment Name:</label>
-        <input
-          type="text"
-          id="assignment-name"
-          name="assignment-name"
-          required
-        />
+        <input type="text" id="assignment-name" required />
 
         <label for="assignment-grade">Grade (out of 5):</label>
-        <input
-          type="number"
-          id="assignment-grade"
-          name="assignment-grade"
-          min="0"
-          max="5"
-          step="0.1"
-          required
-        />
+        <input type="number" id="assignment-grade" min="0" max="5" step="0.1" required />
 
         <button type="submit">Add Assignment</button>
       </form>
     </section>
 
-    <!-- GPA Display -->
     <section id="gpa-display">
       <h2>Current GPA:</h2>
       <p id="gpa-value">0.00</p>
     </section>
 
-    <!-- List of Assignments -->
     <section id="assignment-list">
       <h2>Assignments Entered:</h2>
       <ul id="entries"></ul>
@@ -59,3 +43,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
