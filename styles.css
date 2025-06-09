@@ -2,6 +2,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
   padding: 20px;
+  font-family: sans-serif;
 }
 
 header {
@@ -19,8 +20,8 @@ main {
   margin: 0 auto;
 }
 
-#input-section {
-  background-color: #ffffff;
+#input-section, #gpa-display, #assignment-list {
+  background-color: #fff;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -57,24 +58,10 @@ form button:hover {
   background-color: #27ae60;
 }
 
-#gpa-display {
-  background-color: #ecf0f1;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
 #gpa-value {
   font-size: 2rem;
   font-weight: bold;
   color: #2980b9;
-}
-
-#assignment-list {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 footer {
@@ -83,3 +70,4 @@ footer {
   font-size: 0.9rem;
   color: #555;
 }
+
